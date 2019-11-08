@@ -1,0 +1,9 @@
+.component {
+  position: absolute;
+  background-color: purple;
+  color: white;
+}
+
+:host {
+  overflow: hidden;
+}
