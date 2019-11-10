@@ -1,0 +1,12 @@
+<input type="file" id="file" (change)="handleFileInput($event.target.files)" />
+<ng-container *ngIf="data && data.COMPONENTS.length > 0">
+  <slij-component
+    *ngFor="let component of data.COMPONENTS"
+    cdkDrag
+    [style.top]="(component.Y + offset.y) / zoom + 'px'"
+    [style.left]="(component.X + 500 + offset.x) / zoom + 'px'"
+    (cdkDragEnded)="droppedComponent($event, component)"
+  >
+    {{ component.TAG }}
+  </slij-component>
+</ng-container>

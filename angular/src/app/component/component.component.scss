@@ -1,0 +1,10 @@
+.container {
+  width: 20px;
+  height: 20px;
+  border: 1px solid grey;
+  background-color: purple;
+  color: white;
+  &:hover {
+    background-color: red;
+  }
+}

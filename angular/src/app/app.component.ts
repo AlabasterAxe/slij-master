@@ -1,6 +1,7 @@
 import { Component, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
+import { CdkDrag, CdkDragEnd } from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-root',
@@ -78,9 +79,15 @@ export class AppComponent implements OnDestroy {
     const filereader = new FileReader();
     filereader.onload = evt => {
       const event: any = evt;
-      console.log(event.target.result);
       this.data = JSON.parse(event.target.result);
     };
     filereader.readAsText(arg.item(0));
+  }
+
+  droppedComponent(event: CdkDragEnd, component: any) {
+    console.log(event);
+    component.X += event.distance.x * this.zoom;
+    component.Y += event.distance.y * this.zoom;
+    event.source.reset();
   }
 }
