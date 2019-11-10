@@ -1,0 +1,5376 @@
+{
+  "HEADER": {
+    "TAG": "IC",
+    "APP_VERSION": 77
+  },
+  "COMPONENTS": [
+    {
+      "ID": 67919809,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -75.4378,
+      "Y": 319.35785,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "d-8"
+      }
+    },
+    {
+      "ID": 20684068,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -76.03778,
+      "Y": 416.48703,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": true,
+        "LABEL": "d-7"
+      }
+    },
+    {
+      "ID": 236218979,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -76.12769,
+      "Y": 513.3154,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "d-6"
+      }
+    },
+    {
+      "ID": 251757358,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -75.8449,
+      "Y": 608.6146,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": true,
+        "LABEL": "d-5"
+      }
+    },
+    {
+      "ID": 260710133,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -76.47409,
+      "Y": 705.8524,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "d-4"
+      }
+    },
+    {
+      "ID": 175917569,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -77.56398,
+      "Y": 802.3797,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": true,
+        "LABEL": "d-3"
+      }
+    },
+    {
+      "ID": 20199828,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -78.61329,
+      "Y": 898.56616,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "d-2"
+      }
+    },
+    {
+      "ID": 168499603,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -80.71191,
+      "Y": 994.75256,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": true,
+        "LABEL": "d-1"
+      }
+    },
+    {
+      "ID": 212249786,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -83.06757,
+      "Y": 1341.189,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "a-4"
+      }
+    },
+    {
+      "ID": 114366449,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -83.99792,
+      "Y": 1438.5128,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "a-3"
+      }
+    },
+    {
+      "ID": 227130132,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -84.18647,
+      "Y": 1533.6902,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "a-2"
+      }
+    },
+    {
+      "ID": 174671438,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -83.54952,
+      "Y": 1630.5077,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "a-1"
+      }
+    },
+    {
+      "ID": 91632505,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -80.5375,
+      "Y": 1840.657,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": true,
+        "LABEL": "ri"
+      }
+    },
+    {
+      "ID": 178941966,
+      "TAG": "TOGGLE_BUTTON",
+      "X": -89.784164,
+      "Y": 1992.4982,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "ENABLED": false,
+        "LABEL": "ro"
+      }
+    },
+    {
+      "ID": 43333734,
+      "TAG": "PULSE_BUTTON",
+      "X": -100.51126,
+      "Y": 2198.7393,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "LABEL": "clock"
+      }
+    },
+    {
+      "ID": 115981616,
+      "TAG": "PULSE_BUTTON",
+      "X": -100.84209,
+      "Y": 2352.6533,
+      "INPUTS": [],
+      "ARGUMENTS": {
+        "LABEL": "reset"
+      }
+    },
+    {
+      "ID": 76361127,
+      "TAG": "LIGHT_BULB",
+      "X": 1338.9741,
+      "Y": -1822.0776,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ]
+    },
+    {
+      "ID": 116053314,
+      "TAG": "LIGHT_BULB",
+      "X": 1334.1897,
+      "Y": -1703.4851,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 1
+        }
+      ]
+    },
+    {
+      "ID": 242337305,
+      "TAG": "LIGHT_BULB",
+      "X": 1342.1637,
+      "Y": -1567.9279,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 2
+        }
+      ]
+    },
+    {
+      "ID": 135633756,
+      "TAG": "LIGHT_BULB",
+      "X": 1353.3273,
+      "Y": -1438.7498,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 3
+        }
+      ]
+    },
+    {
+      "ID": 147927547,
+      "TAG": "LIGHT_BULB",
+      "X": 1364.4907,
+      "Y": -1303.1925,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 4
+        }
+      ]
+    },
+    {
+      "ID": 266703933,
+      "TAG": "LIGHT_BULB",
+      "X": 1386.8179,
+      "Y": -1142.9159,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 5
+        }
+      ]
+    },
+    {
+      "ID": 67716079,
+      "TAG": "LIGHT_BULB",
+      "X": 1366.0856,
+      "Y": -984.23413,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 6
+        }
+      ]
+    },
+    {
+      "ID": 47266508,
+      "TAG": "LIGHT_BULB",
+      "X": 1359.7064,
+      "Y": -831.13434,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 192359935,
+          "OTHER_CONNECTOR_ID": 7
+        }
+      ]
+    },
+    {
+      "ID": 101310519,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 196.36363,
+      "Y": 351.63635,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 139523713,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 97005498,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 222.76825,
+      "Y": 1021.1677,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 238434741,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 216620725,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 208.42583,
+      "Y": 684.72766,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 188148515,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 172058701,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 224.17357,
+      "Y": 1322.7119,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 76847799,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 234923343,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 190.7919,
+      "Y": 1775.0565,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 212249786,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 114366449,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 227130132,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 174671438,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "16-bit-1-hot-decoder.slij",
+        "NUM_OF_IN": 4,
+        "NUM_OF_OUT": 16,
+        "LABEL": "16-bit-1-hot-decoder.slij"
+      }
+    },
+    {
+      "ID": 139523713,
+      "TAG": "AND_GATE",
+      "X": 71.47897,
+      "Y": 444.56592,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 12
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 188148515,
+      "TAG": "AND_GATE",
+      "X": 78.84913,
+      "Y": 777.2927,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 13
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 238434741,
+      "TAG": "AND_GATE",
+      "X": 68.43935,
+      "Y": 1104.1134,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 14
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 76847799,
+      "TAG": "AND_GATE",
+      "X": 84.984406,
+      "Y": 1409.8582,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 15
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 177732314,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1278.6316,
+      "Y": 335.2181,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 188462874,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 78137325,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1274.0024,
+      "Y": 640.7369,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 248969584,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 56824076,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1277.4744,
+      "Y": 949.7275,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 623115,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 106360242,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1280.0767,
+      "Y": 1281.5754,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 223992108,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 188462874,
+      "TAG": "AND_GATE",
+      "X": 1109.1587,
+      "Y": 432.88382,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 248969584,
+      "TAG": "AND_GATE",
+      "X": 1120.2058,
+      "Y": 722.87054,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 1
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 623115,
+      "TAG": "AND_GATE",
+      "X": 1124.8087,
+      "Y": 1026.6661,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 2
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 223992108,
+      "TAG": "AND_GATE",
+      "X": 1125.269,
+      "Y": 1361.7618,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 3
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 205998987,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 920.16364,
+      "Y": 334.8362,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 200430879,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 200430879,
+      "TAG": "AND_GATE",
+      "X": 771.6025,
+      "Y": 430.2637,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 4
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 261749302,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 924.45416,
+      "Y": 656.0551,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 180675933,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 180675933,
+      "TAG": "AND_GATE",
+      "X": 789.30115,
+      "Y": 737.57605,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 5
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 81409977,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 931.4652,
+      "Y": 986.96564,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 202971894,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 202971894,
+      "TAG": "AND_GATE",
+      "X": 789.3399,
+      "Y": 1074.3861,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 6
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 204904583,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 936.2547,
+      "Y": 1306.077,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 199344809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 199344809,
+      "TAG": "AND_GATE",
+      "X": 803.28424,
+      "Y": 1381.6984,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 7
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 18506256,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 593.58246,
+      "Y": 342.33954,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 224019172,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 258748283,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 591.4372,
+      "Y": 661.4184,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 92150510,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 92150510,
+      "TAG": "AND_GATE",
+      "X": 427.32275,
+      "Y": 747.22986,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 9
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 224019172,
+      "TAG": "AND_GATE",
+      "X": 442.8761,
+      "Y": 429.72736,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 8
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 214067282,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 597.3056,
+      "Y": 1002.519,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 116047272,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 116047272,
+      "TAG": "AND_GATE",
+      "X": 452.6342,
+      "Y": 1091.5483,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 10
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 42367400,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 604.30896,
+      "Y": 1341.4742,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 67919809,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 20684068,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 236218979,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 251757358,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 260710133,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 175917569,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 20199828,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 168499603,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 84934034,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 115981616,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "8-bit-register.slij",
+        "NUM_OF_IN": 10,
+        "NUM_OF_OUT": 8,
+        "LABEL": "8-bit-register.slij"
+      }
+    },
+    {
+      "ID": 84934034,
+      "TAG": "AND_GATE",
+      "X": 460.5747,
+      "Y": 1397.2517,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 43333734,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 91632505,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 234923343,
+          "OTHER_CONNECTOR_ID": 11
+        }
+      ],
+      "ARGUMENTS": {
+        "IN": 3
+      }
+    },
+    {
+      "ID": 192835041,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 384.4299,
+      "Y": -313.31458,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 101310519,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 10,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 11,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 12,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 13,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 14,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 15,
+          "OTHER_COMPONENT": 216620725,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 16,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 17,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 18,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 19,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 20,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 21,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 22,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 23,
+          "OTHER_COMPONENT": 97005498,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 24,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 25,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 26,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 27,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 28,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 29,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 30,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 31,
+          "OTHER_COMPONENT": 172058701,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 32,
+          "OTHER_COMPONENT": 227130132,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 33,
+          "OTHER_COMPONENT": 174671438,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "4-way-8-bit-source-selector.slij",
+        "NUM_OF_IN": 34,
+        "NUM_OF_OUT": 8,
+        "LABEL": "4-way-8-bit-source-selector.slij"
+      }
+    },
+    {
+      "ID": 48606130,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 778.9161,
+      "Y": -293.6286,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 18506256,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 10,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 11,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 12,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 13,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 14,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 15,
+          "OTHER_COMPONENT": 258748283,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 16,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 17,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 18,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 19,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 20,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 21,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 22,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 23,
+          "OTHER_COMPONENT": 214067282,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 24,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 25,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 26,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 27,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 28,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 29,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 30,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 31,
+          "OTHER_COMPONENT": 42367400,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 32,
+          "OTHER_COMPONENT": 227130132,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 33,
+          "OTHER_COMPONENT": 174671438,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "4-way-8-bit-source-selector.slij",
+        "NUM_OF_IN": 34,
+        "NUM_OF_OUT": 8,
+        "LABEL": "4-way-8-bit-source-selector.slij"
+      }
+    },
+    {
+      "ID": 165230606,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1117.905,
+      "Y": -266.64807,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 205998987,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 10,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 11,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 12,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 13,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 14,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 15,
+          "OTHER_COMPONENT": 261749302,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 16,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 17,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 18,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 19,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 20,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 21,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 22,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 23,
+          "OTHER_COMPONENT": 81409977,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 24,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 25,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 26,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 27,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 28,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 29,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 30,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 31,
+          "OTHER_COMPONENT": 204904583,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 32,
+          "OTHER_COMPONENT": 227130132,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 33,
+          "OTHER_COMPONENT": 174671438,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "4-way-8-bit-source-selector.slij",
+        "NUM_OF_IN": 34,
+        "NUM_OF_OUT": 8,
+        "LABEL": "4-way-8-bit-source-selector.slij"
+      }
+    },
+    {
+      "ID": 150376692,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 1456.7462,
+      "Y": -278.39926,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 177732314,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 10,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 11,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 12,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 13,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 14,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 15,
+          "OTHER_COMPONENT": 78137325,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 16,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 17,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 18,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 19,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 20,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 21,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 22,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 23,
+          "OTHER_COMPONENT": 56824076,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 24,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 25,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 26,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 27,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 28,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 29,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 30,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 31,
+          "OTHER_COMPONENT": 106360242,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 32,
+          "OTHER_COMPONENT": 227130132,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 33,
+          "OTHER_COMPONENT": 174671438,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "4-way-8-bit-source-selector.slij",
+        "NUM_OF_IN": 34,
+        "NUM_OF_OUT": 8,
+        "LABEL": "4-way-8-bit-source-selector.slij"
+      }
+    },
+    {
+      "ID": 192359935,
+      "TAG": "INTEGRATED_CIRCUIT",
+      "X": 946.12964,
+      "Y": -1247.3596,
+      "INPUTS": [
+        {
+          "CONNECTOR_ID": 0,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 1,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 2,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 3,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 4,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 5,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 6,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 7,
+          "OTHER_COMPONENT": 150376692,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 8,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 9,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 10,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 11,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 12,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 13,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 14,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 15,
+          "OTHER_COMPONENT": 165230606,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 16,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 17,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 18,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 19,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 20,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 21,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 22,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 23,
+          "OTHER_COMPONENT": 48606130,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 24,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 25,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 1
+        },
+        {
+          "CONNECTOR_ID": 26,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 2
+        },
+        {
+          "CONNECTOR_ID": 27,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 3
+        },
+        {
+          "CONNECTOR_ID": 28,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 4
+        },
+        {
+          "CONNECTOR_ID": 29,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 5
+        },
+        {
+          "CONNECTOR_ID": 30,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 6
+        },
+        {
+          "CONNECTOR_ID": 31,
+          "OTHER_COMPONENT": 192835041,
+          "OTHER_CONNECTOR_ID": 7
+        },
+        {
+          "CONNECTOR_ID": 32,
+          "OTHER_COMPONENT": 212249786,
+          "OTHER_CONNECTOR_ID": 0
+        },
+        {
+          "CONNECTOR_ID": 33,
+          "OTHER_COMPONENT": 114366449,
+          "OTHER_CONNECTOR_ID": 0
+        }
+      ],
+      "ARGUMENTS": {
+        "URI": "4-way-8-bit-source-selector.slij",
+        "NUM_OF_IN": 34,
+        "NUM_OF_OUT": 8,
+        "LABEL": "4-way-8-bit-source-selector.slij"
+      }
+    }
+  ],
+  "DEPENDENCIES": {
+    "16-bit-1-hot-decoder.slij": {
+      "HEADER": {
+        "TAG": "IC",
+        "APP_VERSION": 77
+      },
+      "COMPONENTS": [
+        {
+          "ID": 177069615,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -367.69586,
+          "Y": 22.904488,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 69561408,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -376.9858,
+          "Y": 182.38177,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 124641210,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -387.0499,
+          "Y": 332.56912,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 211722989,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -379.34924,
+          "Y": 473.46652,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 221456215,
+          "TAG": "LIGHT_BULB",
+          "X": 423.84912,
+          "Y": -1135.475,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 178700114,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 131818162,
+          "TAG": "LIGHT_BULB",
+          "X": 407.01282,
+          "Y": -957.85,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 217323025,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 190749257,
+          "TAG": "LIGHT_BULB",
+          "X": 395.50732,
+          "Y": -801.88635,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 168185434,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 59016524,
+          "TAG": "LIGHT_BULB",
+          "X": 392.95056,
+          "Y": -652.8599,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 3237727,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 50646187,
+          "TAG": "LIGHT_BULB",
+          "X": 371.8571,
+          "Y": -484.84543,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 124402352,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 18699798,
+          "TAG": "LIGHT_BULB",
+          "X": 359.53122,
+          "Y": -337.55368,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 217233821,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 118065917,
+          "TAG": "LIGHT_BULB",
+          "X": 345.4689,
+          "Y": -163.05333,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 237884982,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 142134160,
+          "TAG": "LIGHT_BULB",
+          "X": 368.47995,
+          "Y": -12.203232,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 257009739,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 264240575,
+          "TAG": "LIGHT_BULB",
+          "X": 377.42868,
+          "Y": 159.91144,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 128671340,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 140175418,
+          "TAG": "LIGHT_BULB",
+          "X": 377.42868,
+          "Y": 305.47684,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 160975593,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 169986417,
+          "TAG": "LIGHT_BULB",
+          "X": 382.5422,
+          "Y": 495.95706,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 206576850,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 206199444,
+          "TAG": "LIGHT_BULB",
+          "X": 392.76935,
+          "Y": 708.1699,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 215618807,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 247279251,
+          "TAG": "LIGHT_BULB",
+          "X": 381.26385,
+          "Y": 951.6721,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 55953128,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 201661726,
+          "TAG": "LIGHT_BULB",
+          "X": 390.2126,
+          "Y": 1131.3173,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 146519541,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 258575260,
+          "TAG": "LIGHT_BULB",
+          "X": 398.48026,
+          "Y": 1382.5629,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 68083246,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 73777610,
+          "TAG": "LIGHT_BULB",
+          "X": 402.9965,
+          "Y": 1594.0946,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 220330339,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 196440639,
+          "TAG": "NOT_GATE",
+          "X": -180.24861,
+          "Y": 22.031862,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 185050810,
+          "TAG": "NOT_GATE",
+          "X": -207.55055,
+          "Y": 169.53822,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 73751025,
+          "TAG": "NOT_GATE",
+          "X": -205.65459,
+          "Y": 303.7728,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 24503572,
+          "TAG": "NOT_GATE",
+          "X": -191.62442,
+          "Y": 455.07108,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 237884982,
+          "TAG": "AND_GATE",
+          "X": 105.766914,
+          "Y": -172.83296,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 217233821,
+          "TAG": "AND_GATE",
+          "X": 112.29785,
+          "Y": -337.97238,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 124402352,
+          "TAG": "AND_GATE",
+          "X": 115.096825,
+          "Y": -498.6554,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 3237727,
+          "TAG": "AND_GATE",
+          "X": 110.43186,
+          "Y": -661.72034,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 168185434,
+          "TAG": "AND_GATE",
+          "X": 99.23597,
+          "Y": -830.59174,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 217323025,
+          "TAG": "AND_GATE",
+          "X": 95.509026,
+          "Y": -987.75586,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 178700114,
+          "TAG": "AND_GATE",
+          "X": 103.90594,
+          "Y": -1159.9227,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 220330339,
+          "TAG": "AND_GATE",
+          "X": 150.225,
+          "Y": 1573.1353,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 68083246,
+          "TAG": "AND_GATE",
+          "X": 148.54137,
+          "Y": 1368.129,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 146519541,
+          "TAG": "AND_GATE",
+          "X": 139.30862,
+          "Y": 1134.124,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 55953128,
+          "TAG": "AND_GATE",
+          "X": 124.89746,
+          "Y": 897.60876,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 215618807,
+          "TAG": "AND_GATE",
+          "X": 120.24363,
+          "Y": 683.94183,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 206576850,
+          "TAG": "AND_GATE",
+          "X": 111.18103,
+          "Y": 497.94534,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 160975593,
+          "TAG": "AND_GATE",
+          "X": 110.96968,
+          "Y": 312.3511,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 128671340,
+          "TAG": "AND_GATE",
+          "X": 109.4908,
+          "Y": 138.43454,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 196440639,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 69561408,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 124641210,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 211722989,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 257009739,
+          "TAG": "AND_GATE",
+          "X": 107.8376,
+          "Y": -20.427855,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 177069615,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 185050810,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 73751025,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 24503572,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        }
+      ]
+    },
+    "8-bit-register.slij": {
+      "HEADER": {
+        "TAG": "IC",
+        "APP_VERSION": 77
+      },
+      "COMPONENTS": [
+        {
+          "ID": 110900471,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -169.31598,
+          "Y": 278.498,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-128"
+          }
+        },
+        {
+          "ID": 196600116,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -168.55771,
+          "Y": 485.74026,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-64"
+          }
+        },
+        {
+          "ID": 148761837,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -175.59096,
+          "Y": 677.1979,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-32"
+          }
+        },
+        {
+          "ID": 48602482,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -171.1423,
+          "Y": 870.7146,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-16"
+          }
+        },
+        {
+          "ID": 258994643,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -164.46931,
+          "Y": 1084.9917,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-8"
+          }
+        },
+        {
+          "ID": 9654240,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -172.62518,
+          "Y": 1290.7422,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-4"
+          }
+        },
+        {
+          "ID": 215394478,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -184.48828,
+          "Y": 1504.0165,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-2"
+          }
+        },
+        {
+          "ID": 4826041,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -198.37378,
+          "Y": 1714.1472,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-1"
+          }
+        },
+        {
+          "ID": 2966823,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -185.45258,
+          "Y": 1973.0721,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "load"
+          }
+        },
+        {
+          "ID": 113818692,
+          "TAG": "TOGGLE_BUTTON",
+          "X": -168.37297,
+          "Y": 2195.1067,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "reset"
+          }
+        },
+        {
+          "ID": 38072094,
+          "TAG": "LIGHT_BULB",
+          "X": 520.3794,
+          "Y": 339.0001,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 223975963,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 265935119,
+          "TAG": "LIGHT_BULB",
+          "X": 514.0263,
+          "Y": 512.36456,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 248261169,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 255693164,
+          "TAG": "LIGHT_BULB",
+          "X": 522.90125,
+          "Y": 694.301,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 222319188,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 249487045,
+          "TAG": "LIGHT_BULB",
+          "X": 515.1002,
+          "Y": 882.33887,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 264382803,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 41138282,
+          "TAG": "LIGHT_BULB",
+          "X": 504.63663,
+          "Y": 1021.00995,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 63272670,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 88369003,
+          "TAG": "LIGHT_BULB",
+          "X": 506.1284,
+          "Y": 1180.7589,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 107998821,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 63492054,
+          "TAG": "LIGHT_BULB",
+          "X": 508.34714,
+          "Y": 1364.9141,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 173457944,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 35240724,
+          "TAG": "LIGHT_BULB",
+          "X": 488.3785,
+          "Y": 1530.7645,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 182289318,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 248261169,
+          "TAG": "D_FLIP_FLOP",
+          "X": 198.40382,
+          "Y": 512.3865,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 196600116,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 222319188,
+          "TAG": "D_FLIP_FLOP",
+          "X": 203.07309,
+          "Y": 676.91785,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 148761837,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 264382803,
+          "TAG": "D_FLIP_FLOP",
+          "X": 205.2373,
+          "Y": 830.5449,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 48602482,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 63272670,
+          "TAG": "D_FLIP_FLOP",
+          "X": 211.906,
+          "Y": 1006.74603,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 258994643,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 107998821,
+          "TAG": "D_FLIP_FLOP",
+          "X": 218.67255,
+          "Y": 1177.7833,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 9654240,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 173457944,
+          "TAG": "D_FLIP_FLOP",
+          "X": 229.52188,
+          "Y": 1364.2106,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 215394478,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 182289318,
+          "TAG": "D_FLIP_FLOP",
+          "X": 231.74277,
+          "Y": 1530.6696,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 4826041,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 223975963,
+          "TAG": "D_FLIP_FLOP",
+          "X": 199.5644,
+          "Y": 341.41656,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 39096576,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 152181163,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 110900471,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 2966823,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 39096576,
+          "TAG": "HIGH_CONSTANT",
+          "X": -123.43579,
+          "Y": 987.0066,
+          "INPUTS": []
+        },
+        {
+          "ID": 152181163,
+          "TAG": "NOT_GATE",
+          "X": 62.12921,
+          "Y": 2137.7656,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 113818692,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        }
+      ]
+    },
+    "4-way-8-bit-source-selector.slij": {
+      "HEADER": {
+        "TAG": "IC",
+        "APP_VERSION": 77
+      },
+      "COMPONENTS": [
+        {
+          "ID": 95994132,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.18097,
+          "Y": -199.16994,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "c-128"
+          }
+        },
+        {
+          "ID": 88770323,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.0126,
+          "Y": -103.3926,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "c-64"
+          }
+        },
+        {
+          "ID": 189861790,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 67.4865,
+          "Y": -5.7224855,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "c-32"
+          }
+        },
+        {
+          "ID": 49053221,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 67.13433,
+          "Y": 90.6752,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "c-16"
+          }
+        },
+        {
+          "ID": 257373400,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 67.51139,
+          "Y": 187.65184,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "c-8"
+          }
+        },
+        {
+          "ID": 173540263,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.0434,
+          "Y": 285.18622,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "c-4"
+          }
+        },
+        {
+          "ID": 258777922,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 68.86307,
+          "Y": 381.7867,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "c-2"
+          }
+        },
+        {
+          "ID": 267054105,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 68.31814,
+          "Y": 478.81708,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "c-1"
+          }
+        },
+        {
+          "ID": 164755804,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.13498,
+          "Y": 717.1103,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "b-128"
+          }
+        },
+        {
+          "ID": 232663035,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.13498,
+          "Y": 814.697,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "b-64"
+          }
+        },
+        {
+          "ID": 62366118,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.13498,
+          "Y": 909.7893,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "b-32"
+          }
+        },
+        {
+          "ID": 4121549,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.5207,
+          "Y": 1006.7848,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "b-16"
+          }
+        },
+        {
+          "ID": 230257312,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 68.53477,
+          "Y": 1103.301,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "b-8"
+          }
+        },
+        {
+          "ID": 26126351,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 68.53477,
+          "Y": 1199.7306,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "b-4"
+          }
+        },
+        {
+          "ID": 128798410,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 67.691666,
+          "Y": 1296.3785,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "b-2"
+          }
+        },
+        {
+          "ID": 122845505,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.937126,
+          "Y": 1393.0663,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "b-1"
+          }
+        },
+        {
+          "ID": 128763044,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 69.77152,
+          "Y": 1589.1968,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-128"
+          }
+        },
+        {
+          "ID": 261683171,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 70.476524,
+          "Y": 1686.4572,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-64"
+          }
+        },
+        {
+          "ID": 83996334,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 70.231026,
+          "Y": 1782.0021,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-32"
+          }
+        },
+        {
+          "ID": 71270517,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 70.79449,
+          "Y": 1878.704,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-16"
+          }
+        },
+        {
+          "ID": 241029992,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 70.64021,
+          "Y": 1977.0527,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-8"
+          }
+        },
+        {
+          "ID": 243157879,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 71.73014,
+          "Y": 2074.143,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-4"
+          }
+        },
+        {
+          "ID": 97093085,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 72.41706,
+          "Y": 2171.018,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "a-2"
+          }
+        },
+        {
+          "ID": 266203042,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 73.0001,
+          "Y": 2268.2788,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": true,
+            "LABEL": "a-1"
+          }
+        },
+        {
+          "ID": 185277881,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 39.10653,
+          "Y": 2514.2244,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 46581628,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 37.72099,
+          "Y": 2611.9048,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 96795803,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 38.35893,
+          "Y": 2708.9202,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 152684224,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 37.922905,
+          "Y": 2805.9355,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 259256006,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 37.922905,
+          "Y": 2899.479,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 64865133,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 35.170498,
+          "Y": 2995.9993,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 108553151,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 38.952026,
+          "Y": 3092.9768,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 258601614,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 40.815273,
+          "Y": 3189.8657,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false
+          }
+        },
+        {
+          "ID": 69319474,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 128.49808,
+          "Y": 3682.6467,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "selector-2"
+          }
+        },
+        {
+          "ID": 235203731,
+          "TAG": "TOGGLE_BUTTON",
+          "X": 126.81275,
+          "Y": 3856.7302,
+          "INPUTS": [],
+          "ARGUMENTS": {
+            "ENABLED": false,
+            "LABEL": "selector-1"
+          }
+        },
+        {
+          "ID": 74826032,
+          "TAG": "LIGHT_BULB",
+          "X": 704.14984,
+          "Y": 979.1137,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 71173985,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-128"
+          }
+        },
+        {
+          "ID": 221143007,
+          "TAG": "LIGHT_BULB",
+          "X": 705.83704,
+          "Y": 1060.0535,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 218318328,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-64"
+          }
+        },
+        {
+          "ID": 242639066,
+          "TAG": "LIGHT_BULB",
+          "X": 703.787,
+          "Y": 1139.0894,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 41064474,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-32"
+          }
+        },
+        {
+          "ID": 216074897,
+          "TAG": "LIGHT_BULB",
+          "X": 707.3746,
+          "Y": 1217.3962,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 109351455,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-16"
+          }
+        },
+        {
+          "ID": 264683060,
+          "TAG": "LIGHT_BULB",
+          "X": 704.8713,
+          "Y": 1296.5258,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 239051376,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-8"
+          }
+        },
+        {
+          "ID": 28235443,
+          "TAG": "LIGHT_BULB",
+          "X": 705.2016,
+          "Y": 1376.065,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 56674909,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-4"
+          }
+        },
+        {
+          "ID": 220042174,
+          "TAG": "LIGHT_BULB",
+          "X": 705.83105,
+          "Y": 1453.8206,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 111660022,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-2"
+          }
+        },
+        {
+          "ID": 152832538,
+          "TAG": "LIGHT_BULB",
+          "X": 701.65894,
+          "Y": 1530.6284,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 134893323,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "LABEL": "o-1"
+          }
+        },
+        {
+          "ID": 192234518,
+          "TAG": "AND_GATE",
+          "X": 287.0617,
+          "Y": -203.21362,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 95994132,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 201281789,
+          "TAG": "AND_GATE",
+          "X": 279.31863,
+          "Y": -98.6824,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 88770323,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 122309008,
+          "TAG": "AND_GATE",
+          "X": 282.35962,
+          "Y": -1.0828243,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 189861790,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 118789055,
+          "TAG": "AND_GATE",
+          "X": 280.27603,
+          "Y": 97.97641,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 49053221,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 160527930,
+          "TAG": "AND_GATE",
+          "X": 290.65576,
+          "Y": 186.19191,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 257373400,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 32943985,
+          "TAG": "AND_GATE",
+          "X": 286.7842,
+          "Y": 394.9778,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 258777922,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 79001748,
+          "TAG": "AND_GATE",
+          "X": 286.23117,
+          "Y": 474.8972,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 267054105,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 52148174,
+          "TAG": "AND_GATE",
+          "X": 293.4211,
+          "Y": 277.1728,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 173540263,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 262013063,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 33737141,
+          "TAG": "AND_GATE",
+          "X": 282.36444,
+          "Y": 720.10345,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 164755804,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 154701224,
+          "TAG": "AND_GATE",
+          "X": 273.04007,
+          "Y": 811.8695,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 232663035,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 171223735,
+          "TAG": "AND_GATE",
+          "X": 267.7951,
+          "Y": 902.0865,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 62366118,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 109530514,
+          "TAG": "AND_GATE",
+          "X": 265.7554,
+          "Y": 1008.8469,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 4121549,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 117002921,
+          "TAG": "AND_GATE",
+          "X": 277.70224,
+          "Y": 1093.9318,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 230257312,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 200190252,
+          "TAG": "AND_GATE",
+          "X": 258.15576,
+          "Y": 1295.7944,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 128798410,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 85758475,
+          "TAG": "AND_GATE",
+          "X": 263.44797,
+          "Y": 1402.1226,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 122845505,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 98922445,
+          "TAG": "AND_GATE",
+          "X": 262.50803,
+          "Y": 1199.0607,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 26126351,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 217565701,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 97230016,
+          "TAG": "AND_GATE",
+          "X": 289.20023,
+          "Y": 1584.0856,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 128763044,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 223221738,
+          "TAG": "AND_GATE",
+          "X": 285.73444,
+          "Y": 1768.1926,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 83996334,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 50988257,
+          "TAG": "AND_GATE",
+          "X": 280.45926,
+          "Y": 1871.254,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 71270517,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 183481540,
+          "TAG": "AND_GATE",
+          "X": 277.96982,
+          "Y": 1979.5438,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 241029992,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 264197763,
+          "TAG": "AND_GATE",
+          "X": 279.5257,
+          "Y": 2083.1658,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 243157879,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 14290382,
+          "TAG": "AND_GATE",
+          "X": 284.8157,
+          "Y": 2171.7773,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 97093085,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 213222584,
+          "TAG": "AND_GATE",
+          "X": 289.79456,
+          "Y": 2268.3162,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 266203042,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 49055919,
+          "TAG": "AND_GATE",
+          "X": 286.06042,
+          "Y": 1684.2362,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 261683171,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 190726712,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 149751472,
+          "TAG": "NOT_GATE",
+          "X": 307.77325,
+          "Y": 3847.554,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 235203731,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 162846109,
+          "TAG": "NOT_GATE",
+          "X": 305.2342,
+          "Y": 3665.9912,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 69319474,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 262013063,
+          "TAG": "AND_GATE",
+          "X": 499.08984,
+          "Y": 3607.1907,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 69319474,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 235203731,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 217565701,
+          "TAG": "AND_GATE",
+          "X": 504.26416,
+          "Y": 3737.047,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 69319474,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 149751472,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 190726712,
+          "TAG": "AND_GATE",
+          "X": 517.5583,
+          "Y": 3849.0125,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 162846109,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 235203731,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 42714262,
+          "TAG": "AND_GATE",
+          "X": 511.09256,
+          "Y": 3979.1787,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 162846109,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 149751472,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 258947675,
+          "TAG": "AND_GATE",
+          "X": 292.20834,
+          "Y": 2504.393,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 185277881,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 98232198,
+          "TAG": "AND_GATE",
+          "X": 298.93063,
+          "Y": 2599.8494,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 46581628,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 226308909,
+          "TAG": "AND_GATE",
+          "X": 300.61118,
+          "Y": 2684.5503,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 96795803,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 258644352,
+          "TAG": "AND_GATE",
+          "X": 297.91904,
+          "Y": 2798.7117,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 152684224,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 150588527,
+          "TAG": "AND_GATE",
+          "X": 297.42322,
+          "Y": 2899.69,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 259256006,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 95735466,
+          "TAG": "AND_GATE",
+          "X": 292.40427,
+          "Y": 3005.6084,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 64865133,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 190925473,
+          "TAG": "AND_GATE",
+          "X": 291.24405,
+          "Y": 3101.846,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 108553151,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 123851117,
+          "TAG": "AND_GATE",
+          "X": 291.05978,
+          "Y": 3192.1091,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 258601614,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 42714262,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ]
+        },
+        {
+          "ID": 134893323,
+          "TAG": "OR_GATE",
+          "X": 551.9985,
+          "Y": 1672.4073,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 79001748,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 85758475,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 213222584,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 123851117,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 111660022,
+          "TAG": "OR_GATE",
+          "X": 551.1936,
+          "Y": 1561.9915,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 32943985,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 200190252,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 14290382,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 190925473,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 56674909,
+          "TAG": "OR_GATE",
+          "X": 551.8272,
+          "Y": 1457.004,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 52148174,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 98922445,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 264197763,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 95735466,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 239051376,
+          "TAG": "OR_GATE",
+          "X": 549.1941,
+          "Y": 1349.022,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 160527930,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 117002921,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 183481540,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 150588527,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 109351455,
+          "TAG": "OR_GATE",
+          "X": 548.00104,
+          "Y": 1243.0115,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 118789055,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 109530514,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 50988257,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 258644352,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 41064474,
+          "TAG": "OR_GATE",
+          "X": 547.2739,
+          "Y": 1139.3976,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 122309008,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 171223735,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 223221738,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 226308909,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 218318328,
+          "TAG": "OR_GATE",
+          "X": 544.3655,
+          "Y": 1034.3296,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 201281789,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 154701224,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 49055919,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 98232198,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        },
+        {
+          "ID": 71173985,
+          "TAG": "OR_GATE",
+          "X": 543.27484,
+          "Y": 928.53455,
+          "INPUTS": [
+            {
+              "CONNECTOR_ID": 0,
+              "OTHER_COMPONENT": 192234518,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 1,
+              "OTHER_COMPONENT": 33737141,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 2,
+              "OTHER_COMPONENT": 97230016,
+              "OTHER_CONNECTOR_ID": 0
+            },
+            {
+              "CONNECTOR_ID": 3,
+              "OTHER_COMPONENT": 258947675,
+              "OTHER_CONNECTOR_ID": 0
+            }
+          ],
+          "ARGUMENTS": {
+            "IN": 4
+          }
+        }
+      ]
+    }
+  }
+}

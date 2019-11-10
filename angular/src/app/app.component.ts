@@ -1,7 +1,6 @@
+import { CdkDragEnd } from '@angular/cdk/drag-drop';
 import { Component, OnDestroy } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-import { CdkDrag, CdkDragEnd } from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +18,7 @@ export class AppComponent implements OnDestroy {
   dragStartOffset = { x: null, y: null };
 
   fileUploadSubscription: Subscription;
-  constructor(private readonly http: HttpClient) {
+  constructor() {
     window.addEventListener('wheel', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
