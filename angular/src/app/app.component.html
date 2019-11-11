@@ -1,12 +1,20 @@
 <input type="file" id="file" (change)="handleFileInput($event.target.files)" />
+<ul>
+  <li>Zoom: {{ zoom }}</li>
+  <li>Offset: {{ offset | json }}</li>
+  <li>Mouse Loc: {{ mouseloc | json }}</li>
+</ul>
 <ng-container *ngIf="data && data.COMPONENTS.length > 0">
   <slij-component
+    [component]="component"
     *ngFor="let component of data.COMPONENTS"
     cdkDrag
-    [style.top]="(component.Y + offset.y) / zoom + 'px'"
-    [style.left]="(component.X + 500 + offset.x) / zoom + 'px'"
+    [style.top.px]="(component.Y + offset.y) * zoom"
+    [style.left.px]="(component.X + 500 + offset.x) * zoom"
+    [style.width.px]="40 * zoom"
     (cdkDragEnded)="droppedComponent($event, component)"
+    [matTooltip]="component | json"
+    matTooltipShowDelay="1000"
   >
-    {{ component.TAG }}
   </slij-component>
 </ng-container>

@@ -1,6 +1,7 @@
 import { CdkDragEnd } from '@angular/cdk/drag-drop';
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { SlijFile } from '../../../model/model';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +11,11 @@ import { Subscription } from 'rxjs';
 export class AppComponent implements OnDestroy {
   title = 'slij-master';
   filename: File;
-  data: any;
+  data: SlijFile;
   zoom = 2;
   ticking = false;
   offset = { x: 0, y: 0 };
+  mouseloc = { x: 0, y: 0 };
   middleMouseButtonClickStart = { x: null, y: null };
   dragStartOffset = { x: null, y: null };
 
@@ -23,7 +25,7 @@ export class AppComponent implements OnDestroy {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
-          this.zoom += e.deltaY / 80;
+          this.zoom *= e.deltaY > 0 ? 0.9 : 1.1;
         });
 
         this.ticking = true;
@@ -46,9 +48,11 @@ export class AppComponent implements OnDestroy {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
+          this.mouseloc.x = e.clientX;
+          this.mouseloc.y = e.clientY;
           if (e.which === 2) {
-            this.offset.x = this.dragStartOffset.x + (e.clientX - this.middleMouseButtonClickStart.x) * this.zoom;
-            this.offset.y = this.dragStartOffset.y + (e.clientY - this.middleMouseButtonClickStart.y) * this.zoom;
+            this.offset.x = this.dragStartOffset.x + (e.clientX - this.middleMouseButtonClickStart.x) / this.zoom;
+            this.offset.y = this.dragStartOffset.y + (e.clientY - this.middleMouseButtonClickStart.y) / this.zoom;
           }
         });
 
@@ -85,8 +89,8 @@ export class AppComponent implements OnDestroy {
 
   droppedComponent(event: CdkDragEnd, component: any) {
     console.log(event);
-    component.X += event.distance.x * this.zoom;
-    component.Y += event.distance.y * this.zoom;
+    component.X += event.distance.x / this.zoom;
+    component.Y += event.distance.y / this.zoom;
     event.source.reset();
   }
 }

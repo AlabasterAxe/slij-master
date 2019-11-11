@@ -1,0 +1,11 @@
+<ng-container [ngSwitch]="component.TAG">
+  <img src="./assets/buffer-gate.svg" *ngSwitchCase="SlComponentType.BufferGate" />
+  <img src="./assets/not-gate.svg" *ngSwitchCase="SlComponentType.NotGate" />
+  <img src="./assets/or-gate.svg" *ngSwitchCase="SlComponentType.OrGate" />
+  <img src="./assets/nor-gate.svg" *ngSwitchCase="SlComponentType.NorGate" />
+  <img src="./assets/and-gate.svg" *ngSwitchCase="SlComponentType.AndGate" />
+  <img src="./assets/nand-gate.svg" *ngSwitchCase="SlComponentType.NandGate" />
+  <img src="./assets/xor-gate.svg" *ngSwitchCase="SlComponentType.XorGate" />
+  <img src="./assets/xnor-gate.svg" *ngSwitchCase="SlComponentType.XnorGate" />
+  <div *ngSwitchDefault class="container">no rendering for gate type {{ component.TAG }}</div>
+</ng-container>

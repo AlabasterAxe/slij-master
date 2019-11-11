@@ -1,0 +1,12 @@
+<ng-container [ngSwitch]="component.TAG">
+  <img
+    src="./assets/toggle-button.svg"
+    *ngSwitchCase="SlComponentType.ToggleButton"
+    alt="toggle button which holds it's state"
+  />
+  <img
+    src="./assets/pulse-button.svg"
+    *ngSwitchCase="SlComponentType.PulseButton"
+    alt="pulse button which holds it's state"
+  />
+</ng-container>
