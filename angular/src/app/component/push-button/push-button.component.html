@@ -1,12 +1,28 @@
-<ng-container [ngSwitch]="component.TAG">
-  <img
-    src="./assets/toggle-button.svg"
-    *ngSwitchCase="SlComponentType.ToggleButton"
-    alt="toggle button which holds it's state"
-  />
-  <img
-    src="./assets/pulse-button.svg"
-    *ngSwitchCase="SlComponentType.PulseButton"
-    alt="pulse button which holds it's state"
-  />
-</ng-container>
+<svg width="180" height="128" viewBox="0 0 180 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g slij-terminal transform="translate(105, 45)" />
+  <ng-container [ngSwitch]="component.TAG">
+    <rect
+      *ngSwitchCase="SlComponentType.ToggleButton"
+      x="2"
+      y="2"
+      width="124"
+      height="124"
+      rx="14"
+      fill="#FF0D0D"
+      stroke="#FFB800"
+      stroke-width="4"
+    />
+
+    <rect
+      *ngSwitchCase="SlComponentType.PulseButton"
+      x="2"
+      y="2"
+      width="124"
+      height="124"
+      rx="62"
+      fill="#FF0D0D"
+      stroke="#FFB800"
+      stroke-width="4"
+    />
+  </ng-container>
+</svg>

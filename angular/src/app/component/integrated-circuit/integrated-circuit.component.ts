@@ -12,4 +12,8 @@ export class IntegratedCircuitComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getHeight() {
+    return Math.max(this.component.ARGUMENTS.NUM_OF_IN, this.component.ARGUMENTS.NUM_OF_OUT) * 30;
+  }
 }

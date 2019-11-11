@@ -11,9 +11,10 @@ import { ComponentComponent } from './component/component.component';
 import { PushButtonComponent } from './component/push-button/push-button.component';
 import { GateComponent } from './component/gate/gate.component';
 import { IntegratedCircuitComponent } from './component/integrated-circuit/integrated-circuit.component';
+import { TerminalComponent } from './component/terminal/terminal.component';
 
 @NgModule({
-  declarations: [AppComponent, ComponentComponent, PushButtonComponent, GateComponent, IntegratedCircuitComponent],
+  declarations: [AppComponent, ComponentComponent, PushButtonComponent, GateComponent, IntegratedCircuitComponent, TerminalComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
