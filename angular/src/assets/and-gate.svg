@@ -1,5 +1,5 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-inside-1" fill="white">
+<mask fill="white">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M53.896 2H0V125H53.896H54.8487V124.99C83.7377 124.402 107 97.097 107 63.5C107 29.903 83.7377 2.59828 54.8487 2.0097V2H53.896Z"/>
 </mask>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M53.896 2H0V125H53.896H54.8487V124.99C83.7377 124.402 107 97.097 107 63.5C107 29.903 83.7377 2.59828 54.8487 2.0097V2H53.896Z" fill="#0092E3"/>
