@@ -20,6 +20,7 @@ import { BufferComponent } from "./component/gate/buffer/buffer.component";
 import { NotComponent } from "./component/gate/not/not.component";
 import { XorComponent } from "./component/gate/xor/xor.component";
 import { XnorComponent } from "./component/gate/xnor/xnor.component";
+import { WireComponent } from './wire/wire.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { XnorComponent } from "./component/gate/xnor/xnor.component";
     BufferComponent,
     NotComponent,
     XorComponent,
-    XnorComponent
+    XnorComponent,
+    WireComponent
   ],
   imports: [
     BrowserModule,

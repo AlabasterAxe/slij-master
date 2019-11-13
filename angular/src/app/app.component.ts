@@ -1,15 +1,15 @@
-import { CdkDragEnd } from "@angular/cdk/drag-drop";
-import { Component, OnDestroy } from "@angular/core";
-import { Subscription } from "rxjs";
-import { SlijFile } from "../../../model/model";
+import { CdkDragEnd } from '@angular/cdk/drag-drop';
+import { Component, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { SlijFile } from '../../../model/model';
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnDestroy {
-  title = "slij-master";
+  title = 'slij-master';
   filename: File;
   data: SlijFile;
   zoom = 2;
@@ -21,7 +21,7 @@ export class AppComponent implements OnDestroy {
 
   fileUploadSubscription: Subscription;
   constructor() {
-    window.addEventListener("wheel", e => {
+    window.addEventListener('wheel', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
@@ -31,7 +31,7 @@ export class AppComponent implements OnDestroy {
         this.ticking = true;
       }
     });
-    window.addEventListener("mousedown", e => {
+    window.addEventListener('mousedown', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
@@ -44,26 +44,23 @@ export class AppComponent implements OnDestroy {
         this.ticking = true;
       }
     });
-    window.addEventListener("mousemove", e => {
+    window.addEventListener('mousemove', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
           this.mouseloc.x = e.clientX;
           this.mouseloc.y = e.clientY;
           if (e.which === 2) {
-            this.offset.x =
-              this.dragStartOffset.x +
-              (e.clientX - this.middleMouseButtonClickStart.x) / this.zoom;
-            this.offset.y =
-              this.dragStartOffset.y +
-              (e.clientY - this.middleMouseButtonClickStart.y) / this.zoom;
+            this.offset.x = this.dragStartOffset.x + (e.clientX - this.middleMouseButtonClickStart.x) / this.zoom;
+            this.offset.y = this.dragStartOffset.y + (e.clientY - this.middleMouseButtonClickStart.y) / this.zoom;
           }
         });
 
         this.ticking = true;
       }
     });
-    window.addEventListener("mouseup", e => {
+
+    window.addEventListener('mouseup', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
@@ -92,9 +89,20 @@ export class AppComponent implements OnDestroy {
   }
 
   droppedComponent(event: CdkDragEnd, component: any) {
-    console.log(event);
     component.X += event.distance.x / this.zoom;
     component.Y += event.distance.y / this.zoom;
     event.source.reset();
+  }
+
+  getTempWireWidth() {
+    return Math.abs(this.data.COMPONENTS[0].X - this.data.COMPONENTS[1].X);
+  }
+
+  getTop() {
+    return Math.min(this.data.COMPONENTS[0].Y, this.data.COMPONENTS[1].Y);
+  }
+
+  getLeft() {
+    return Math.min(this.data.COMPONENTS[0].X, this.data.COMPONENTS[1].X);
   }
 }

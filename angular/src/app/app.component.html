@@ -10,11 +10,20 @@
     *ngFor="let component of data.COMPONENTS"
     cdkDrag
     [style.top.px]="(component.Y + offset.y) * zoom"
-    [style.left.px]="(component.X + 500 + offset.x) * zoom"
+    [style.left.px]="(component.X + offset.x) * zoom"
     [style.width.px]="40 * zoom"
     (cdkDragEnded)="droppedComponent($event, component)"
     [matTooltip]="component | json"
     matTooltipShowDelay="1000"
   >
   </slij-component>
+  <slij-wire
+    [startComponent]="data.COMPONENTS[0]"
+    [endComponent]="data.COMPONENTS[1]"
+    [style.width.px]="getTempWireWidth() * zoom"
+    [style.top.px]="(getTop() + offset.y) * zoom"
+    [style.left.px]="(getLeft() + offset.x) * zoom"
+    [offset]="offset"
+    [zoom]="zoom"
+  ></slij-wire>
 </ng-container>

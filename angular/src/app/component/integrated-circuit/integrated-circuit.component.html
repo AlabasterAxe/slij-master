@@ -1,15 +1,11 @@
 <svg
   width="300"
   [attr.height.px]="getHeight()"
-  attr.viewBox="-100 0 300 {{ getHeight() + 4 }}"
+  attr.viewBox="-20 0 150 {{ getHeight() + 4 }}"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <g
-    slij-terminal
-    *ngFor="let item of outputs(); index as i"
-    attr.transform="translate(105, {{ 10 + i * 50 }})"
-  />
+  <g slij-terminal *ngFor="let item of outputs(); index as i" attr.transform="translate(105, {{ 10 + i * 50 }})" />
   <g
     slij-terminal
     *ngFor="let item of inputs(); index as i"
