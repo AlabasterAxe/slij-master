@@ -1,24 +1,16 @@
-<svg
-  width="300"
-  [attr.height.px]="getHeight()"
-  attr.viewBox="-20 0 150 {{ getHeight() + 4 }}"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <g slij-terminal *ngFor="let item of outputs(); index as i" attr.transform="translate(105, {{ 10 + i * 50 }})" />
-  <g
-    slij-terminal
-    *ngFor="let item of inputs(); index as i"
-    attr.transform="rotate(180) translate(-10, {{ -((i + 1) * 50) }})"
-  />
-  <rect
-    x="2"
-    y="2"
-    width="124"
-    attr.height="{{ getHeight() }}"
-    rx="14"
-    fill="#10ad32"
-    stroke="#44e266"
-    stroke-width="4"
-  />
-</svg>
+<svg:g slij-terminal *ngFor="let item of outputs(); index as i" attr.transform="translate(105, {{ 10 + i * 50 }})" />
+<svg:g
+  slij-terminal
+  *ngFor="let item of inputs(); index as i"
+  attr.transform="rotate(180) translate(-10, {{ -((i + 1) * 50) }})"
+/>
+<svg:rect
+  x="2"
+  y="2"
+  width="124"
+  attr.height="{{ getHeight() }}"
+  rx="14"
+  fill="#10ad32"
+  stroke="#44e266"
+  stroke-width="4"
+/>

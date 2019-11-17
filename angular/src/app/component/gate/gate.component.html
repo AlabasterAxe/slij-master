@@ -1,21 +1,19 @@
-<svg width="128" height="128" viewBox="-65 0 250 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <ng-container [ngSwitch]="component.TAG">
-    <g
-      slij-terminal
-      *ngFor="let item of inputs(); index as i"
-      attr.transform="rotate(180) translate(-10, {{ 15 - (i + 1) * 50 }})"
-    />
-    <g slij-terminal transform="translate(105, 40)" />
-    <g slij-buffer *ngSwitchCase="SlComponentType.BufferGate" />
-    <g slij-not *ngSwitchCase="SlComponentType.NotGate" />
-    <g slij-or *ngSwitchCase="SlComponentType.OrGate" />
-    <g slij-nor *ngSwitchCase="SlComponentType.NorGate" />
-    <g slij-and *ngSwitchCase="SlComponentType.AndGate" />
-    <g slij-nand *ngSwitchCase="SlComponentType.NandGate" />
-    <g slij-xor *ngSwitchCase="SlComponentType.XorGate" />
-    <g slij-xnor *ngSwitchCase="SlComponentType.XnorGate" />
-    <g *ngSwitchDefault class="container">
-      <text>no rendering for gate type {{ component.TAG }}</text>
-    </g>
-  </ng-container>
-</svg>
+<ng-container [ngSwitch]="component.TAG">
+  <svg:g
+    slij-terminal
+    *ngFor="let item of inputs(); index as i"
+    attr.transform="rotate(180) translate(-10, {{ 15 - (i + 1) * 50 }})"
+  />
+  <svg:g slij-terminal transform="translate(105, 40)" />
+  <svg:g slij-buffer *ngSwitchCase="SlComponentType.BufferGate" />
+  <svg:g slij-not *ngSwitchCase="SlComponentType.NotGate" />
+  <svg:g slij-or *ngSwitchCase="SlComponentType.OrGate" />
+  <svg:g slij-nor *ngSwitchCase="SlComponentType.NorGate" />
+  <svg:g slij-and *ngSwitchCase="SlComponentType.AndGate" />
+  <svg:g slij-nand *ngSwitchCase="SlComponentType.NandGate" />
+  <svg:g slij-xor *ngSwitchCase="SlComponentType.XorGate" />
+  <svg:g slij-xnor *ngSwitchCase="SlComponentType.XnorGate" />
+  <svg:g *ngSwitchDefault class="container">
+    <text>no rendering for gate type {{ component.TAG }}</text>
+  </svg:g>
+</ng-container>

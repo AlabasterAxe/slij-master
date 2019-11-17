@@ -2,6 +2,7 @@ import { CdkDragEnd } from '@angular/cdk/drag-drop';
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { SlijFile } from '../../../model/model';
+import { ViewportService } from './viewport.service';
 
 @Component({
   selector: 'app-root',
@@ -9,23 +10,20 @@ import { SlijFile } from '../../../model/model';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnDestroy {
-  title = 'slij-master';
   filename: File;
   data: SlijFile;
-  zoom = 2;
   ticking = false;
-  offset = { x: 0, y: 0 };
   mouseloc = { x: 0, y: 0 };
   middleMouseButtonClickStart = { x: null, y: null };
   dragStartOffset = { x: null, y: null };
 
   fileUploadSubscription: Subscription;
-  constructor() {
+  constructor(readonly viewportService: ViewportService) {
     window.addEventListener('wheel', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           this.ticking = false;
-          this.zoom *= e.deltaY > 0 ? 0.9 : 1.1;
+          viewportService.zoom *= e.deltaY > 0 ? 0.9 : 1.1;
         });
 
         this.ticking = true;
@@ -37,7 +35,7 @@ export class AppComponent implements OnDestroy {
           this.ticking = false;
           if (e.which === 2) {
             this.middleMouseButtonClickStart = { x: e.clientX, y: e.clientY };
-            this.dragStartOffset = { x: this.offset.x, y: this.offset.y };
+            this.dragStartOffset = { x: viewportService.offset.x, y: viewportService.offset.y };
           }
         });
 
@@ -51,20 +49,11 @@ export class AppComponent implements OnDestroy {
           this.mouseloc.x = e.clientX;
           this.mouseloc.y = e.clientY;
           if (e.which === 2) {
-            this.offset.x = this.dragStartOffset.x + (e.clientX - this.middleMouseButtonClickStart.x) / this.zoom;
-            this.offset.y = this.dragStartOffset.y + (e.clientY - this.middleMouseButtonClickStart.y) / this.zoom;
+            viewportService.offset = {
+              x: this.dragStartOffset.x + (e.clientX - this.middleMouseButtonClickStart.x) / viewportService.zoom,
+              y: this.dragStartOffset.y + (e.clientY - this.middleMouseButtonClickStart.y) / viewportService.zoom,
+            };
           }
-        });
-
-        this.ticking = true;
-      }
-    });
-
-    window.addEventListener('mouseup', e => {
-      if (!this.ticking) {
-        window.requestAnimationFrame(() => {
-          this.ticking = false;
-          // lock in move
         });
 
         this.ticking = true;

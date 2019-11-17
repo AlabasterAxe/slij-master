@@ -2,7 +2,7 @@ import { Component, OnInit, Input, AfterContentInit } from '@angular/core';
 import { SlComponent } from '../../../../model/model';
 
 @Component({
-  selector: 'slij-wire',
+  selector: '[slij-wire]',
   templateUrl: './wire.component.html',
   styleUrls: ['./wire.component.scss'],
 })
