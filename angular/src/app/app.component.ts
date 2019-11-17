@@ -1,7 +1,7 @@
 import { CdkDragEnd } from '@angular/cdk/drag-drop';
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { SlijFile } from '../../../model/model';
+import { SlijFile, SlComponent } from '../../../model/model';
 import { ViewportService } from './viewport.service';
 
 @Component({
@@ -12,10 +12,13 @@ import { ViewportService } from './viewport.service';
 export class AppComponent implements OnDestroy {
   filename: File;
   data: SlijFile;
+  connections: { startComponent: SlComponent; endComponent: SlComponent }[] = [];
   ticking = false;
   mouseloc = { x: 0, y: 0 };
   middleMouseButtonClickStart = { x: null, y: null };
   dragStartOffset = { x: null, y: null };
+
+  componentMap = new Map<number, SlComponent>();
 
   fileUploadSubscription: Subscription;
   constructor(readonly viewportService: ViewportService) {
@@ -73,13 +76,28 @@ export class AppComponent implements OnDestroy {
     filereader.onload = evt => {
       const event: any = evt;
       this.data = JSON.parse(event.target.result);
+      for (const component of this.data.COMPONENTS) {
+        this.componentMap.set(component.ID, component);
+      }
+      for (const component of this.data.COMPONENTS) {
+        for (const input of component.INPUTS) {
+          this.connections.push({
+            startComponent: this.componentMap.get(input.OTHER_COMPONENT),
+            endComponent: component,
+          });
+        }
+      }
     };
     filereader.readAsText(arg.item(0));
   }
 
+  pinchToZoom(event) {
+    console.log(event);
+  }
+
   droppedComponent(event: CdkDragEnd, component: any) {
-    component.X += event.distance.x / this.zoom;
-    component.Y += event.distance.y / this.zoom;
+    component.X += event.distance.x / this.viewportService.zoom;
+    component.Y += event.distance.y / this.viewportService.zoom;
     event.source.reset();
   }
 

@@ -1,7 +1,7 @@
 <svg:line
-  [attr.x1]="svgLineStart.x"
-  [attr.y1]="svgLineStart.y"
-  [attr.x2]="svgLineEnd.x"
-  [attr.y2]="svgLineEnd.y"
+  [attr.x1]="(startComponent.X + viewportService.offset.x) * viewportService.zoom"
+  [attr.y1]="(startComponent.Y + viewportService.offset.y) * viewportService.zoom"
+  [attr.x2]="(endComponent.X + viewportService.offset.x) * viewportService.zoom"
+  [attr.y2]="(endComponent.Y + viewportService.offset.y) * viewportService.zoom"
   stroke="yellowgreen"
 />
