@@ -3,6 +3,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { SlijFile, SlComponent } from '../../../model/model';
 import { ViewportService } from './viewport.service';
+import * as data from '../../../data/1-bit-adder.json';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ export class AppComponent implements OnDestroy {
 
   fileUploadSubscription: Subscription;
   constructor(readonly viewportService: ViewportService) {
+    this.data = (data as any).default;
     window.addEventListener('wheel', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {

@@ -16,6 +16,6 @@ export class GateComponent implements OnInit {
   ngOnInit() {}
 
   inputs() {
-    return Array(this.component.ARGUMENTS.IN ? this.component.ARGUMENTS.IN : 2);
+    return Array(this.component.ARGUMENTS && this.component.ARGUMENTS.IN ? this.component.ARGUMENTS.IN : 2);
   }
 }

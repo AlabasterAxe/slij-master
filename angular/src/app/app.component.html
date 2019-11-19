@@ -13,6 +13,7 @@
       cdkDrag
       (cdkDragEnded)="droppedComponent($event, component)"
       matTooltipShowDelay="1000"
+      [matTooltip]="component | json"
     />
     <g
       slij-wire

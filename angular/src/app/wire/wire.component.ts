@@ -6,6 +6,8 @@ import { map } from 'rxjs/operators';
 
 function getInputConnectorLoc(component: SlComponent, inputConnectorId: number) {
   switch (component.TAG) {
+    case SlComponentType.IntegratedCircuit:
+      return { x: component.X - 10, y: component.Y + 40 * inputConnectorId };
     default:
       return { x: component.X, y: component.Y };
   }
@@ -13,6 +15,8 @@ function getInputConnectorLoc(component: SlComponent, inputConnectorId: number) 
 
 function getOutputConnectorLoc(component: SlComponent, outputConnectorId: number) {
   switch (component.TAG) {
+    case SlComponentType.IntegratedCircuit:
+      return { x: component.X + 41.5, y: component.Y + 12.5 * outputConnectorId + 7 };
     case SlComponentType.ToggleButton:
     case SlComponentType.PulseButton:
       return { x: component.X + 40, y: component.Y + 16 };
@@ -56,5 +60,9 @@ export class WireComponent implements OnInit {
       }),
     );
     this.locs = combineLatest(this.startLoc, this.endLoc);
+  }
+
+  getWidth() {
+    return Math.max(this.viewportService.zoom * 1.5, 1);
   }
 }

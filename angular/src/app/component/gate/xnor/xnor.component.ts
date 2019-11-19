@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'slij-xnor',
+  selector: '[slij-xnor]',
   templateUrl: './xnor.component.html',
-  styleUrls: ['./xnor.component.scss']
+  styleUrls: ['./xnor.component.scss'],
 })
 export class XnorComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

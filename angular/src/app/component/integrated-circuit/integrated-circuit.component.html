@@ -1,8 +1,8 @@
-<svg:g slij-terminal *ngFor="let item of outputs(); index as i" attr.transform="translate(105, {{ 10 + i * 50 }})" />
+<svg:g slij-terminal *ngFor="let item of outputs(); index as i" attr.transform="translate(110, {{ 10 + i * 50 }})" />
 <svg:g
   slij-terminal
   *ngFor="let item of inputs(); index as i"
-  attr.transform="rotate(180) translate(-10, {{ -((i + 1) * 50) }})"
+  attr.transform="rotate(180) translate(-20, {{ -((i + 1) * 50) }})"
 />
 <svg:rect
   x="2"
