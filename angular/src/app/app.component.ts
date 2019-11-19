@@ -12,7 +12,7 @@ import { ViewportService } from './viewport.service';
 export class AppComponent implements OnDestroy {
   filename: File;
   data: SlijFile;
-  connections: { startComponent: SlComponent; endComponent: SlComponent }[] = [];
+  connections: { startComponent: SlComponent; startIndex: number; endComponent: SlComponent; endIndex: number }[] = [];
   ticking = false;
   mouseloc = { x: 0, y: 0 };
   middleMouseButtonClickStart = { x: null, y: null };
@@ -83,7 +83,9 @@ export class AppComponent implements OnDestroy {
         for (const input of component.INPUTS) {
           this.connections.push({
             startComponent: this.componentMap.get(input.OTHER_COMPONENT),
+            startIndex: input.CONNECTOR_ID,
             endComponent: component,
+            endIndex: input.OTHER_CONNECTOR_ID,
           });
         }
       }

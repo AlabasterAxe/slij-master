@@ -65,3 +65,8 @@ export interface Header {
   TAG: string;
   APP_VERSION: number;
 }
+
+export interface Point {
+  x: number;
+  y: number;
+}

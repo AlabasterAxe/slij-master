@@ -1,19 +1,69 @@
-<svg:g
-  attr.transform="translate({{ (component.X + viewportService.offset.x) * viewportService.zoom }}, {{
-    (component.Y + viewportService.offset.y) * viewportService.zoom
-  }}) scale({{ viewportService.zoom / 4 }})"
-  [ngSwitch]="component.TAG"
->
-  <svg:g slij-push-button *ngSwitchCase="SlComponentType.ToggleButton" [component]="component" />
-  <svg:g slij-push-button *ngSwitchCase="SlComponentType.PulseButton" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.BufferGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.NotGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.OrGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.NorGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.AndGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.NandGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.XorGate" [component]="component" />
-  <svg:g slij-gate *ngSwitchCase="SlComponentType.XnorGate" [component]="component" />
-  <svg:g slij-integrated-circuit *ngSwitchCase="SlComponentType.IntegratedCircuit" [component]="component" />
+<ng-container [ngSwitch]="component.TAG">
+  <svg:g
+    slij-push-button
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.ToggleButton"
+    [component]="component"
+  />
+  <svg:g
+    slij-push-button
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.PulseButton"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.BufferGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.NotGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.OrGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.NorGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.AndGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.NandGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.XorGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-gate
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.XnorGate"
+    [component]="component"
+  />
+  <svg:g
+    slij-integrated-circuit
+    [attr.transform]="getViewportTranslation()"
+    *ngSwitchCase="SlComponentType.IntegratedCircuit"
+    [component]="component"
+  />
   <svg:g *ngSwitchDefault class="container" />
-</svg:g>
+</ng-container>

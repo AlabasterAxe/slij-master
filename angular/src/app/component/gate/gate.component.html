@@ -2,9 +2,9 @@
   <svg:g
     slij-terminal
     *ngFor="let item of inputs(); index as i"
-    attr.transform="rotate(180) translate(-10, {{ 15 - (i + 1) * 50 }})"
+    attr.transform="rotate(180) translate(-15, {{ 15 - (i + 1) * 50 }})"
   />
-  <svg:g slij-terminal transform="translate(105, 40)" />
+  <svg:g slij-terminal transform="translate(90, 40)" />
   <svg:g slij-buffer *ngSwitchCase="SlComponentType.BufferGate" />
   <svg:g slij-not *ngSwitchCase="SlComponentType.NotGate" />
   <svg:g slij-or *ngSwitchCase="SlComponentType.OrGate" />

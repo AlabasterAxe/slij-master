@@ -18,7 +18,9 @@
       slij-wire
       *ngFor="let connection of connections"
       [startComponent]="connection.startComponent"
+      [startIndex]="connection.startIndex"
       [endComponent]="connection.endComponent"
+      [endIndex]="connection.endIndex"
     />
   </svg>
 </ng-container>

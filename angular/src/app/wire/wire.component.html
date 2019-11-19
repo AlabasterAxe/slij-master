@@ -1,7 +1,8 @@
 <svg:line
-  [attr.x1]="(startComponent.X + viewportService.offset.x) * viewportService.zoom"
-  [attr.y1]="(startComponent.Y + viewportService.offset.y) * viewportService.zoom"
-  [attr.x2]="(endComponent.X + viewportService.offset.x) * viewportService.zoom"
-  [attr.y2]="(endComponent.Y + viewportService.offset.y) * viewportService.zoom"
+  *ngIf="locs | async as locs"
+  [attr.x1]="locs[0].x"
+  [attr.y1]="locs[0].y"
+  [attr.x2]="locs[1].x"
+  [attr.y2]="locs[1].y"
   stroke="yellowgreen"
 />

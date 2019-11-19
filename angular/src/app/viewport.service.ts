@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, BehaviorSubject } from 'rxjs';
-
-interface Point {
-  x: number;
-  y: number;
-}
+import { Point } from '../../../model/model';
 
 @Injectable({
   providedIn: 'root',
@@ -14,7 +10,7 @@ export class ViewportService {
   private zoomSync = 2;
 
   private readonly offsetInner = new BehaviorSubject({ x: 0, y: 0 });
-  private offsetSync = { x: 0, y: 0 };
+  private offsetSync: Point = { x: 0, y: 0 };
 
   get zoom() {
     return this.zoomSync;
