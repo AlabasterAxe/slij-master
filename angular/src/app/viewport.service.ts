@@ -6,11 +6,11 @@ import { Point } from '../../../model/model';
   providedIn: 'root',
 })
 export class ViewportService {
-  private readonly zoomInner = new BehaviorSubject(2);
-  private zoomSync = 2;
+  private readonly zoomInner = new BehaviorSubject(10);
+  private zoomSync = 10;
 
-  private readonly offsetInner = new BehaviorSubject({ x: 0, y: 0 });
-  private offsetSync: Point = { x: 0, y: 0 };
+  private readonly offsetInner = new BehaviorSubject({ x: 300, y: 0 });
+  private offsetSync: Point = { x: 300, y: 0 };
 
   get zoom() {
     return this.zoomSync;

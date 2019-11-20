@@ -1,10 +1,32 @@
 import { CdkDragEnd } from '@angular/cdk/drag-drop';
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { SlijFile, SlComponent } from '../../../model/model';
+import { SlijFile, SlComponent, SlComponentType, Point, Slijet } from '../../../model/model';
 import { ViewportService } from './viewport.service';
 import * as data from '../../../data/1-bit-adder.json';
 
+function getInputConnectorLoc(component: SlComponent, inputConnectorId: number) {
+  switch (component.TAG) {
+    case SlComponentType.IntegratedCircuit:
+      return { x: component.X - 10, y: component.Y + 40 * inputConnectorId };
+    default:
+      return { x: component.X, y: component.Y };
+  }
+}
+
+function getOutputConnectorLoc(component: SlComponent, outputConnectorId: number) {
+  switch (component.TAG) {
+    case SlComponentType.IntegratedCircuit:
+      return { x: component.X + 41.5, y: component.Y + 12.5 * outputConnectorId + 7 };
+    case SlComponentType.ToggleButton:
+    case SlComponentType.PulseButton:
+      return { x: component.X + 40, y: component.Y + 16 };
+    case SlComponentType.AndGate:
+      return { x: component.X + 35, y: component.Y + 16 };
+    default:
+      return { x: component.X, y: component.Y };
+  }
+}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,7 +35,7 @@ import * as data from '../../../data/1-bit-adder.json';
 export class AppComponent implements OnDestroy {
   filename: File;
   data: SlijFile;
-  connections: { startComponent: SlComponent; startIndex: number; endComponent: SlComponent; endIndex: number }[] = [];
+  connections: { startComponent: SlComponent; startOffset: Point; endComponent: SlComponent; endOffset: Point }[] = [];
   ticking = false;
   mouseloc = { x: 0, y: 0 };
   middleMouseButtonClickStart = { x: null, y: null };
@@ -23,7 +45,7 @@ export class AppComponent implements OnDestroy {
 
   fileUploadSubscription: Subscription;
   constructor(readonly viewportService: ViewportService) {
-    this.data = (data as any).default;
+    // this.data = (data as any).default;
     window.addEventListener('wheel', e => {
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
@@ -66,6 +88,13 @@ export class AppComponent implements OnDestroy {
     });
   }
 
+  getViewportTranslation(): string {
+    const scaleValue = this.viewportService.zoom / 4;
+    const translateX = this.viewportService.offset.x;
+    const translateY = this.viewportService.offset.y;
+    return `translate(${translateX}, ${translateY}) scale(${scaleValue})`;
+  }
+
   ngOnDestroy(): void {
     if (this.fileUploadSubscription) {
       this.fileUploadSubscription.unsubscribe();
@@ -83,11 +112,15 @@ export class AppComponent implements OnDestroy {
       }
       for (const component of this.data.COMPONENTS) {
         for (const input of component.INPUTS) {
+          const sc = this.componentMap.get(input.OTHER_COMPONENT);
           this.connections.push({
-            startComponent: this.componentMap.get(input.OTHER_COMPONENT),
-            startIndex: input.CONNECTOR_ID,
+            startComponent: sc,
+            startOffset:
+              sc.TAG === SlComponentType.ToggleButton
+                ? Slijet.build(sc).getOutputLoc(input.OTHER_CONNECTOR_ID)
+                : { x: 0, y: 0 },
             endComponent: component,
-            endIndex: input.OTHER_CONNECTOR_ID,
+            endOffset: { x: 0, y: 0 },
           });
         }
       }
@@ -97,12 +130,6 @@ export class AppComponent implements OnDestroy {
 
   pinchToZoom(event) {
     console.log(event);
-  }
-
-  droppedComponent(event: CdkDragEnd, component: any) {
-    component.X += event.distance.x / this.viewportService.zoom;
-    component.Y += event.distance.y / this.viewportService.zoom;
-    event.source.reset();
   }
 
   getTempWireWidth() {

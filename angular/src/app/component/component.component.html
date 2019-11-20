@@ -3,67 +3,89 @@
     slij-push-button
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.ToggleButton"
-    [component]="component"
+    [component]="Slijet.build(component)"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-push-button
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.PulseButton"
-    [component]="component"
+    [component]="Slijet.build(component)"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.BufferGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.NotGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.OrGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.NorGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.AndGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.NandGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.XorGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-gate
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.XnorGate"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g
     slij-integrated-circuit
     [attr.transform]="getViewportTranslation()"
     *ngSwitchCase="SlComponentType.IntegratedCircuit"
     [component]="component"
+    cdkDrag
+    (cdkDragEnded)="droppedComponent($event, component)"
   />
   <svg:g *ngSwitchDefault class="container" />
 </ng-container>

@@ -70,3 +70,37 @@ export interface Point {
   x: number;
   y: number;
 }
+
+//
+export abstract class Slijet {
+  static build(component: SlComponent): Slijet {
+    switch (component.TAG) {
+      case SlComponentType.ToggleButton:
+      case SlComponentType.PulseButton:
+        return new PushButtonSlijet(component);
+      default:
+        throw new Error('I hate you.');
+    }
+  }
+
+  abstract getInputLoc(index: number): Point;
+  abstract getOutputLoc(index: number): Point;
+}
+
+export class PushButtonSlijet extends Slijet {
+  constructor(readonly component: SlComponent) {
+    super();
+  }
+
+  getInputLoc(index: number): Point {
+    throw new Error('Method not implemented.');
+  }
+
+  getOutputLoc(index: number): Point {
+    if (index === 0) {
+      return { x: 160, y: 62 };
+    } else {
+      throw new Error('INVALID');
+    }
+  }
+}

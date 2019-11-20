@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SlComponent, SlComponentType } from '../../../../../model/model';
+import { SlComponent, SlComponentType, Slijet } from '../../../../../model/model';
 
 @Component({
   selector: '[slij-push-button]',
@@ -7,7 +7,7 @@ import { SlComponent, SlComponentType } from '../../../../../model/model';
   styleUrls: ['./push-button.component.scss'],
 })
 export class PushButtonComponent implements OnInit {
-  @Input() component: SlComponent;
+  @Input() component: Slijet;
   SlComponentType = SlComponentType;
   constructor() {}
 

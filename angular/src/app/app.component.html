@@ -6,22 +6,30 @@
 </ul>
 <ng-container *ngIf="data && data.COMPONENTS.length > 0">
   <svg (pinch)="pinchToZoom($event)">
-    <g
-      slij-component
-      [component]="component"
-      *ngFor="let component of data.COMPONENTS"
-      cdkDrag
-      (cdkDragEnded)="droppedComponent($event, component)"
-      matTooltipShowDelay="1000"
-      [matTooltip]="component | json"
-    />
-    <g
-      slij-wire
-      *ngFor="let connection of connections"
-      [startComponent]="connection.startComponent"
-      [startIndex]="connection.startIndex"
-      [endComponent]="connection.endComponent"
-      [endIndex]="connection.endIndex"
-    />
+    <g [attr.transform]="getViewportTranslation()">
+      <!-- <g
+        slij-wire
+        [startComponent]="connection.startComponent"
+        [startIndex]="connection.startIndex"
+        [endComponent]="connection.endComponent"
+        [endIndex]="connection.endIndex"
+      /> -->
+      <line
+        *ngFor="let connection of connections"
+        [attr.x1]="connection.startComponent.X + connection.startOffset.x"
+        [attr.y1]="connection.startComponent.Y + connection.startOffset.y"
+        [attr.x2]="connection.endComponent.X + connection.endOffset.x"
+        [attr.y2]="connection.endComponent.Y + connection.endOffset.y"
+        [attr.stroke-width]="5"
+        stroke="yellowgreen"
+      />
+      <g
+        slij-component
+        [component]="component"
+        *ngFor="let component of data.COMPONENTS"
+        matTooltipShowDelay="1000"
+        [matTooltip]="component | json"
+      />
+    </g>
   </svg>
 </ng-container>

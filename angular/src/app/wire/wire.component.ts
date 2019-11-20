@@ -4,29 +4,6 @@ import { ViewportService } from '../viewport.service';
 import { Observable, combineLatest } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-function getInputConnectorLoc(component: SlComponent, inputConnectorId: number) {
-  switch (component.TAG) {
-    case SlComponentType.IntegratedCircuit:
-      return { x: component.X - 10, y: component.Y + 40 * inputConnectorId };
-    default:
-      return { x: component.X, y: component.Y };
-  }
-}
-
-function getOutputConnectorLoc(component: SlComponent, outputConnectorId: number) {
-  switch (component.TAG) {
-    case SlComponentType.IntegratedCircuit:
-      return { x: component.X + 41.5, y: component.Y + 12.5 * outputConnectorId + 7 };
-    case SlComponentType.ToggleButton:
-    case SlComponentType.PulseButton:
-      return { x: component.X + 40, y: component.Y + 16 };
-    case SlComponentType.AndGate:
-      return { x: component.X + 35, y: component.Y + 16 };
-    default:
-      return { x: component.X, y: component.Y };
-  }
-}
-
 @Component({
   selector: '[slij-wire]',
   templateUrl: './wire.component.html',
@@ -40,29 +17,17 @@ export class WireComponent implements OnInit {
   @Input() endComponent: SlComponent;
   @Input() endIndex: number;
 
-  startLoc: Observable<Point>;
-  endLoc: Observable<Point>;
-  locs: Observable<[Point, Point]>;
+  startLoc: Point;
+  endLoc: Point;
 
   constructor(readonly viewportService: ViewportService) {}
 
   ngOnInit(): void {
-    this.startLoc = combineLatest(this.viewportService.getOffset(), this.viewportService.getZoomFactor()).pipe(
-      map(([offset, zoom]) => {
-        const untransformedLoc = getOutputConnectorLoc(this.startComponent, this.startIndex);
-        return { x: (untransformedLoc.x + offset.x) * zoom, y: (untransformedLoc.y + offset.y) * zoom };
-      }),
-    );
-    this.endLoc = combineLatest(this.viewportService.getOffset(), this.viewportService.getZoomFactor()).pipe(
-      map(([offset, zoom]) => {
-        const untransformedLoc = getInputConnectorLoc(this.endComponent, this.endIndex);
-        return { x: (untransformedLoc.x + offset.x) * zoom, y: (untransformedLoc.y + offset.y) * zoom };
-      }),
-    );
-    this.locs = combineLatest(this.startLoc, this.endLoc);
+    // this.startLoc = getOutputConnectorLoc(this.startComponent, this.startIndex);
+    // this.endLoc = getInputConnectorLoc(this.endComponent, this.endIndex);
   }
 
-  getWidth() {
-    return Math.max(this.viewportService.zoom * 1.5, 1);
+  getLineWidth() {
+    return Math.max(this.viewportService.zoom, 1);
   }
 }
